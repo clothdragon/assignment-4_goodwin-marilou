@@ -28,3 +28,38 @@ presidents.push(Clinton);
 presidents.push(Bush1);
 
 console.log (presidents[2].firstName + " " + presidents[2].lastName);
+
+function howdy () {
+  console.log ("Marilou Goodwin says hi!");
+}
+howdy();
+
+
+function numba (string) {
+  if (string.length < 7) {
+    console.log ("What a short little word.")
+  }
+  else if (string.length > 7) {
+    console.log ("I'm sorry, that's too many to count.")
+  }
+  else {
+    console.log ("7. What a perfect choice.")
+  };
+}
+numba ("7");
+
+numba ("seventy");
+
+numba ("university");
+
+favMovie = "Deadpool";
+function display (favMovie){
+  console.log (favMovie + " is a fantastic movie.")
+}
+
+function inception (display, favMovie) {
+  display (favMovie);
+}
+
+
+inception (display, favMovie);
